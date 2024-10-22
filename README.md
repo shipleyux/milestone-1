@@ -1,4 +1,4 @@
-# Barefoot Buddy
+# Sober Points
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -11,7 +11,7 @@
 - [License](#license)
 
 ## Introduction
-**Barefoot Buddy** is a static front-end website that helps people who are starting out on thier Barefoot shoe journey and helps conect them with brands and styles to suit thier needs. It is built using custom HTML5 and CSS3 and provides a way of demistifying barefoot shoe brands and collating different brands all in one place.
+**Sober Points** is a static front-end website that helps people who are  on a journey of sobriety and want to find all the best sober resources as voted for by their peers. It is built using custom HTML5 and CSS3 and provides a way of demistifying barefoot shoe brands and collating different brands all in one place.
 
 ## Technologies Used
 - **HTML5**

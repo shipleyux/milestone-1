@@ -6,10 +6,11 @@
 }
 
 .card {
-    width: 100%; /* Ensure the card takes full available width in the grid */
+    width: 100%; 
 }
 
 nav {
+    background-color: white;
     padding: 16px;
     height: auto;
 }
@@ -19,4 +20,38 @@ footer {
     background-color: #ecfd21;
 }
 
+section {
+    padding: 16px;
+   
+}
+ section.hero{
+    height: 636px;
+background-image: url('/assets/images/luke.jpg');
+background-size: cover; /* Cover the entire section */
+background-position: center; 
 
+display: flex; /* Use flexbox for centering content */
+justify-content: left; /* Center content horizontally */
+align-items:center;
+padding-left: 142px;
+
+
+ }
+ .hero-content {
+    background-color: #ecfd21;
+    opacity: 50%;
+    height: 335px;
+    width: 500px;
+    padding:24px;
+    
+ }
+
+
+ 
+
+ .grid {
+    padding-top: 60px;
+    padding-left: 142px;
+    padding-right: 142px;
+    
+ }
