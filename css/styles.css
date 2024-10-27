@@ -1,108 +1,112 @@
 .container {
-    display: grid;
-    gap: 24px; /* Space between cards */
-    padding:24px;
+  display: grid;
+  gap: 1.5rem; /* 24px / 16 = 1.5rem */
+  padding: 1.5rem; /* 24px / 16 = 1.5rem */
 }
 
 .card {
-    width: 100%; 
-    margin:auto;
- 
-    
+  width: 100%; 
+  margin: auto;
 }
 
 nav {
-    background-color: white;
+  background-color: white;
+  font-style: 'Poppins';
 }
 
 footer {
-    padding: 16px;
-    background-color: #ecfd21;
+  padding: 1rem; /* 16px / 16 = 1rem */
+  background-color: #ecfd21;
+  font-style: 'Poppins';
 }
 
 section {
-    padding: 16px;
-   
+  padding: 1rem; /* 16px / 16 = 1rem */
 }
- section.hero{
-    height: 636px;
-background-image: url('/assets/images/luke.jpg');
-background-size: cover; /* Cover the entire section */
-background-position: center; 
 
-display: flex; /* Use flexbox for centering content */
-justify-content: left; /* Center content horizontally */
-align-items:center;
-padding-left: 142px;
+section.hero {
+  height: 39.75rem; /* 636px / 16 = 39.75rem */
+  background-image: url('/assets/images/happyman2.jpg');
+  background-size: cover; 
+  background-position: center; 
+
+  display: flex; 
+  justify-content: left; 
+  align-items: center;
+  padding-left: 8.875rem; /* 142px / 16 = 8.875rem */
+}
+
+.hero-content {
+  position: absolute;
+  background-color: rgba(236, 253, 33, 0.6);
+  height: fit-content;
+  width: fit-content;
+  padding: 1.5rem; /* 24px / 16 = 1.5rem */
+font-family: 'Poppins';
+font-weight: bolder;
+
+}
+
+.grid {
+  margin: 3rem; /* 48px / 16 = 3rem */
+  font-family: 'Roboto';
 
 
- }
- .hero-content {
-    background-color: rgba(236, 253, 33, 0.6); /*using rgba here allows you to adjust opcity without affecting text */
-    height: 335px;
-    width: 500px;
-    padding:24px;
-    
- }
+}
 
-
+.grid-title {
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight:500;
  
-
- .grid {
- margin: 48px;
-
- }
-
- .grid-title {
-    text-align: center;
- }
-
- 
-
-  .position-relative {
-    position: relative;
-  }
   
-  .overlay-number {
-    position: absolute;
-    top: 10px; 
-    left: 10px; 
-    background-color: rgba(255, 255, 255, 0.7); /* Background color with some transparency */
-    border-radius: 50%; /* circular */
-    padding: 5px 10px; 
-    font-weight: bold; 
-    color: #000; /* Text color */
-  }
+  
+}
+.grid-subtitle {
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: italic;
+}
 
-  .arrow-up {
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;  /*  arrow width */
-    border-right: 10px solid transparent; /*  arrow width */
-    border-bottom: 20px solid green; 
-    margin-left: 20px;
-    margin-top:8px;
+.position-relative {
+  position: relative;
+}
 
-  }
+.overlay-number {
+  position: absolute;
+  top: 0.625rem; /* 10px / 16 = 0.625rem */
+  left: 0.625rem; /* 10px / 16 = 0.625rem */
+  background-color: rgba(255, 255, 255, 0.7); 
+  border-radius: 50%; 
+  padding: 0.3125rem 0.625rem; /* (5px, 10px) / 16 */
+  font-weight: bold; 
+  color: #000; 
+}
 
-  .arrow-down {
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;  /*  arrow width */
-    border-right: 10px solid transparent; /*  arrow width */
-    border-top: 20px solid red; 
-    margin-left: 20px;
-    margin-top:8px;
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 0.625rem solid transparent; /* 10px / 16 = 0.625rem */
+  border-right: 0.625rem solid transparent; /* 10px / 16 = 0.625rem */
+  border-bottom: 1.25rem solid green; /* 20px / 16 = 1.25rem */
+  margin-left: 1.25rem; /* 20px / 16 = 1.25rem */
+  margin-top: 0.5rem; /* 8px / 16 = 0.5rem */
+}
 
-  }
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 0.625rem solid transparent; /* 10px / 16 = 0.625rem */
+  border-right: 0.625rem solid transparent; /* 10px / 16 = 0.625rem */
+  border-top: 1.25rem solid red; /* 20px / 16 = 1.25rem */
+  margin-left: 1.25rem; /* 20px / 16 = 1.25rem */
+  margin-top: 0.5rem; /* 8px / 16 = 0.5rem */
+}
 
- 
-  .no-change {
-    height: fit-content;
-    background-color: greenyellow;
-    width: fit-content;
-    margin-top: 4px;
-margin-left: 18px ;
-
-
-  }
+.no-change {
+  height: fit-content;
+  background-color: greenyellow;
+  width: fit-content;
+  margin-top: 0.25rem; /* 4px / 16 = 0.25rem */
+  margin-left: 1.125rem; /* 18px / 16 = 1.125rem */
+}
