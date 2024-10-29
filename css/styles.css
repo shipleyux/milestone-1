@@ -3,40 +3,33 @@
   gap: 1.5rem; /* 24px / 16 = 1.5rem */
   padding: 1.5rem; /* 24px / 16 = 1.5rem */
 }
-
 .card {
   width: 100%; 
   margin: auto;
 }
-
 nav {
   background-color: white;
   font-style: 'Poppins';
  
 }
-
 footer {
   padding: 1rem; /* 16px / 16 = 1rem */
   background-color: #ecfd21;
   font-style: 'Poppins';
 }
-
 section {
   padding: 1rem; 
 }
-
 section.hero {
   height: 39.75rem; 
   background-image: url('/assets/images/happyman2.jpg');
   background-size: cover; 
   background-position: center; 
-
   display: flex; 
   justify-content: left; 
   align-items: center;
   padding-left: 8.875rem; 
 }
-
 .hero-content {
   position: absolute;
   background-color: rgba(236, 253, 33, 0.6);
@@ -45,16 +38,14 @@ section.hero {
   padding: 1.5rem; /* 24px / 16 = 1.5rem */
 font-family: 'Poppins';
 font-weight: bolder;
-
 }
-
+.podcast {
+    width: 100%;
+}
 .grid {
   margin: 3rem; /* 48px / 16 = 3rem */
   font-family: 'Roboto';
-
-
 }
-
 .grid-title {
   text-align: center;
   font-family: 'Poppins';
@@ -68,11 +59,9 @@ font-weight: bolder;
   font-family: 'Poppins';
   font-style: italic;
 }
-
 .position-relative {
   position: relative;
 }
-
 .overlay-number {
   position: absolute;
   top: 0.625rem; /* 10px / 16 = 0.625rem */
@@ -83,7 +72,6 @@ font-weight: bolder;
   font-weight: bold; 
   color: #000; 
 }
-
 .arrow-up {
   width: 0;
   height: 0;
@@ -93,7 +81,6 @@ font-weight: bolder;
   margin-left: 1.25rem; /* 20px / 16 = 1.25rem */
   margin-top: 0.5rem; /* 8px / 16 = 0.5rem */
 }
-
 .arrow-down {
   width: 0;
   height: 0;
@@ -103,7 +90,6 @@ font-weight: bolder;
   margin-left: 1.25rem; /* 20px / 16 = 1.25rem */
   margin-top: 0.5rem; /* 8px / 16 = 0.5rem */
 }
-
 .no-change {
   height: fit-content;
   background-color: greenyellow;
@@ -111,7 +97,6 @@ font-weight: bolder;
   margin-top: 0.25rem; /* 4px / 16 = 0.25rem */
   margin-left: 1.125rem; /* 18px / 16 = 1.125rem */
 }
-
 .custom-footer {
   margin-top: 20px; 
   padding-left: 20px; 
