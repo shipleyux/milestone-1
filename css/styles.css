@@ -22,11 +22,11 @@ footer {
 }
 
 section {
-  padding: 1rem; /* 16px / 16 = 1rem */
+  padding: 1rem; 
 }
 
 section.hero {
-  height: 39.75rem; /* 636px / 16 = 39.75rem */
+  height: 39.75rem; 
   background-image: url('/assets/images/happyman2.jpg');
   background-size: cover; 
   background-position: center; 
@@ -34,7 +34,7 @@ section.hero {
   display: flex; 
   justify-content: left; 
   align-items: center;
-  padding-left: 8.875rem; /* 142px / 16 = 8.875rem */
+  padding-left: 8.875rem; 
 }
 
 .hero-content {
@@ -110,4 +110,10 @@ font-weight: bolder;
   width: fit-content;
   margin-top: 0.25rem; /* 4px / 16 = 0.25rem */
   margin-left: 1.125rem; /* 18px / 16 = 1.125rem */
+}
+
+.custom-footer {
+  margin-top: 20px; 
+  padding-left: 20px; 
+  text-align: center; 
 }
