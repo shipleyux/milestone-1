@@ -9,13 +9,13 @@
 }
 nav {
   background-color: white;
-  font-style: 'Poppins';
+  font-family: 'Poppins';
  
 }
 footer {
   padding: 1rem; /* 16px / 16 = 1rem */
   background-color: #ecfd21;
-  font-style: 'Poppins';
+  font-family: 'Poppins';
 }
 section {
   padding: 1rem; 
@@ -29,6 +29,10 @@ section.hero {
   justify-content: left; 
   align-items: center;
   padding-left: 8.875rem; 
+}
+
+section.hero.quitlit {
+  background-color: rgba(0, 0, 0, 0.5); /* Use solid color for testing */
 }
 
 
