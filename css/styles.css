@@ -30,6 +30,8 @@ section.hero {
   align-items: center;
   padding-left: 8.875rem; 
 }
+
+
 .hero-content {
   position: absolute;
   background-color: rgba(236, 253, 33, 0.6);
