@@ -32,7 +32,7 @@ section.hero {
 }
 
 section.hero.quitlit {
-background-image: url('/assets/images/woman-book.jpg');
+background-image: url('/assets/images/open-book.jpg');
 }
 
 
@@ -48,18 +48,13 @@ font-weight: bolder;
 
 .hero.quitlit .hero-content.quitlit {
   position: absolute;
-  right: 0; /* Aligns the content to the right */
-  top: 50%; /* Center vertically */
-  transform: translateY(-50%); /* Adjusts for perfect vertical centering */
-  background-color: rgba(236, 253, 33, 0.6);
+  background-color: rgba(235, 253, 33, 0.606);
   height: fit-content;
   width: fit-content;
-  padding: 1.5rem;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  color: #333;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin-right: 3.1rem;
+  padding: 1.5rem; /* 24px / 16 = 1.5rem */
+font-family: 'Poppins';
+font-weight: bolder;
+
 }
 
 
@@ -130,7 +125,7 @@ font-weight: bolder;
 
 .image-container img {
   width: 100%;
-  height: auto;
+  height: 400px;
 }
 
 .heading-container {
@@ -148,4 +143,8 @@ font-weight: bolder;
 }
 h2.book {
   padding-left: 10px;
+}
+.book-list .container {
+ 
+  margin: 0 auto; /* Centers the container */
 }
