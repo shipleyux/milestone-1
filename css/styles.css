@@ -32,7 +32,7 @@ section.hero {
 }
 
 section.hero.quitlit {
-  background-color: rgba(0, 0, 0, 0.5); /* Use solid color for testing */
+background-image: url('/assets/images/books.jpg');
 }
 
 
@@ -87,6 +87,7 @@ font-weight: bolder;
   margin-left: 1.25rem; /* 20px / 16 = 1.25rem */
   margin-top: 0.5rem; /* 8px / 16 = 0.5rem */
 }
+
 .arrow-down {
   width: 0;
   height: 0;
@@ -103,8 +104,30 @@ font-weight: bolder;
   margin-top: 0.25rem; /* 4px / 16 = 0.25rem */
   margin-left: 1.125rem; /* 18px / 16 = 1.125rem */
 }
+
+.image-container {
+  position: relative;
+  display: inline-block; /* or block if needed */
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.heading-container {
+  display: flex;
+  align-items: center;
+}
+
+.heading-container h2 {
+  margin-right: 10px; /* Space between the heading and arrow */
+}
 .custom-footer {
   margin-top: 20px; 
   padding-left: 20px; 
   text-align: center; 
+}
+h2.book {
+  padding-left: 10px;
 }
