@@ -57,6 +57,11 @@ font-weight: bolder;
 
 }
 
+section.hero.contact {
+  background-image: url('/assets/images/luke.jpg');
+  }
+  
+
 
 .podcast {
     width: 100%;
@@ -120,13 +125,12 @@ font-weight: bolder;
 
 .image-container {
   position: relative;
-  display: inline-block; /* or block if needed */
+  display: inline-block; 
+
+ 
 }
 
-.image-container img {
-  width: 100%;
-  height: 400px;
-}
+
 
 .heading-container {
   display: flex;
@@ -136,15 +140,23 @@ font-weight: bolder;
 .heading-container h2 {
   margin-right: 10px; /* Space between the heading and arrow */
 }
-.custom-footer {
-  margin-top: 20px; 
-  padding-left: 20px; 
-  text-align: center; 
-}
+
 h2.book {
   padding-left: 10px;
 }
 .book-list .container {
  
   margin: 0 auto; /* Centers the container */
+}
+
+.book-list p {
+  max-width: 600px; 
+
+}
+
+
+.custom-footer {
+  margin-top: 20px; 
+  padding-left: 20px; 
+  text-align: center; 
 }
