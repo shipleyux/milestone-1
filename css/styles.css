@@ -60,7 +60,8 @@ section.hero.quitlit {
 }
 
 section.hero.contact {
-  background-image: url('/assets/images/contact-us.jpg');
+  background-image: url('milestone-1/assets/images/contact-us.jpg');
+
 }
 
 .podcast {
