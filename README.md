@@ -94,11 +94,12 @@ All form fields have clear and labels to ensure that they are understandable for
 ## Wave Chrome Accessibility Tool 
 The WAVE Web Accessibility Evaluation Tool is a free browser extension that helps identify and fix accessibility issues on web pages. It's developed by WebAIM.org and can be added to Google Chrome.
 
-Sober Points has passed all checks using the Wave accessibility tool on chrome. Here is a screen shot of the homepage results.
+Sober Points has passed all checks using the Wave accessibility tool on chrome. Here are the results:
 ![Homepage](assets/images/wave1.png)
-![Results](assets/images/Wave2.png)
 ### Quitlit page
-![Results](assets/images/wave3.png)
+![Quitlit](assets/images/wave3.png)
+### Contact page
+![Contact](assets/images/wave4.png)
 
 
 
