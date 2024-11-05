@@ -149,7 +149,7 @@ section.hero.contact {
 }
 
 h2.book {
-  padding-left: 0.625rem;
+  padding-left: 0;
 }
 
 .book-list .container {
@@ -192,15 +192,18 @@ form button {
 .book-list .arrow-up {
   margin-bottom: 0.9375rem;
   margin-right: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 .book-list .arrow-down {
   margin-bottom: 0.9375rem;
-  margin-right: 0.5rem;
+  margin-right: 1rem;
+  margin-left: 0.5rem;
 }
 
 .book-list .no-change {
   margin-bottom: 0.625rem;
   margin-right: 0.5rem;
   padding: 0.0625rem;
+  margin-left: 0.5rem;
 }

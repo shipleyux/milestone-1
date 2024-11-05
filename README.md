@@ -65,6 +65,45 @@ The project is structured as follows:
         - `oti.jpg`: Image for "OTI" podcast.
   - **css/**: Custom styles for the website's look and feel.
   - **bs/**: Includes JavaScript or Bootstrap scripts for interactive elements.
+
+  # Accessibility
+
+To make the site as accessible as possible, the following principles and features have been implemented:
+
+## Semantic HTML
+Proper HTML tags (e.g., `<header>`, `<footer>`, `<section>`, `<nav>`) are used to create a logical structure and improve readability for screen readers.
+
+## Alternative Text for Images
+All images, including book covers, podcast logos, and background images, include descriptive alt text to ensure that screen readers can convey meaningful information to visually impaired users.
+
+## Keyboard Accessibility
+The website is fully navigable using the keyboard, with clear tab order and focus states. Users can easily navigate between interactive elements like buttons, links, and form fields using the Tab key.
+
+## Color Contrast
+High contrast between text and background colors is maintained to ensure readability for users with low vision or color blindness. For example, the text color contrasts well with the background color in sections like the hero banner.
+
+## Responsive Design
+The site is designed to be fully responsive, ensuring that it works well on both mobile and desktop devices. This ensures that the site is usable across a variety of devices, which is essential for users with mobility impairments who may rely on adaptive devices.
+
+## ARIA (Accessible Rich Internet Applications) Attributes
+Where necessary, ARIA labels and roles are added to improve the accessibility of dynamic elements like buttons and navigation menus.
+
+## Forms and Labels
+All form fields have clear and labels to ensure that they are understandable for screen readers. 
+
+## Wave Chrome Accessibility Tool 
+The WAVE Web Accessibility Evaluation Tool is a free browser extension that helps identify and fix accessibility issues on web pages. It's developed by WebAIM.org and can be added to Google Chrome.
+
+Sober Points has passed all checks using the Wave accessibility tool on chrome. Here is a screen shot of the homepage results.
+![Homepage](assets/images/wave1.png)
+![Results](assets/images/Wave2.png)
+### Quitlit page
+![Results](assets/images/wave3.png)
+
+
+
+
+
   
 ## Installation and Setup
 To set up the project locally, follow these steps:
