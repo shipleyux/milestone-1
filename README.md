@@ -64,7 +64,7 @@ The project is structured as follows:
         - `sober-stories.jpg`: Image for "Sober Stories" podcast.
         - `oti.jpg`: Image for "OTI" podcast.
   - **css/**: Custom styles for the website's look and feel.
-  - **bs/**: Includes JavaScript or Bootstrap scripts for interactive elements.
+  - **bs/**: Includes Bootstrap scripts for interactive elements.
 
   # Accessibility
 
