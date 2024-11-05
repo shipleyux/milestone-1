@@ -8,50 +8,92 @@
 - [Installation and Setup](#installation-and-setup)
 - [Deployment](#deployment)
 - [Attribution](#attribution)
-- [License](#license)
+
 
 ## Introduction
-**Sober Points** is a static front-end website that helps people who are  on a journey of sobriety and want to find all the best sober resources as voted for by their peers. It is built using custom HTML5 and CSS3 and provides a way of demistifying barefoot shoe brands and collating different brands all in one place.
+**Sober Points** is a static front-end website designed to help people on their journey to sobriety. The website serves as a resource hub, providing recommendations for **Quitlit** books and podcasts to aid in the recovery process. It is designed to be simple, accessible, and fully responsive, ensuring users have a seamless experience whether they're browsing on a mobile device or desktop.
+
+The website features:
+- A **Home** page with an introduction to the site and a list of this week's top-rated podcasts.
+- A **Quitlit** page that lists recommended books about sobriety and personal transformation. 
+- A **Contact** page with a way for users to get in touch.
+
+The site uses **HTML5**, **CSS3**, and **Bootstrap** for responsive layout and styling.
 
 ## Technologies Used
-- **HTML5**
-- **CSS3**
+- **HTML5**: Structuring the website and content.
+- **CSS3**: For styling and layout.
+- **Bootstrap**: A front-end framework used for responsive design and grid layout.
+- **Google Fonts**: I used fonts **Poppins**, and **Roboto** to ensure good typography and readability. These specific fonts were chosen for their clean, modern aesthetic. 
 
-Optional:
-- [Bootstrap](https://getbootstrap.com/) (for responsive design and layout)
-- [Any other libraries or frameworks you used]
+## Why I Used Bootstrap 
+I chose to use Bootstrap for its grid system and responsive design components, ensuring that the site is mobile-friendly and looks great across various screen sizes.
 
 ## Features
-- A multi-page or single-scrolling page website with at least 3 sections.
-- A structured layout with a main navigation menu.
-- Responsive design (if applicable).
+- **Multi-page website** with three key sections: Home, Quitlit, and Contact.
+- **Responsive layout** ensuring compatibility with both mobile and desktop devices.
+- **Hero section** on the Home page introducing the website and its mission.
+- A **Quitlit page** showcasing top-rated sobriety-related books, with links to buy each book.
+- A **Podcast Grid** on the Home page that features top-ranked sobriety podcasts, including direct links to listen on Spotify.
+- A **Contact page** where users can reach out for more support and information.
+- **Interactive cards** for podcasts and books, providing users with easy-to-click buttons for further engagement (e.g., Listen on Spotify, Buy Books).
 
 ## Project Structure
-Briefly explain the structure of your project, such as what each HTML page or section contains.
+The project is structured as follows:
 
+### Files and Folders:
+- **index.html**: The **Home page** of the website. This page introduces the website and includes a featured list of podcasts and resources.
+- **quitlit.html**: The **Quitlit page** where users can explore top-rated sobriety-related books, each with descriptions and links to purchase them.
+- **contact.html**: The **Contact page** offering users a way to get in touch with the creators of Sober Points for additional information, suggestions or support.
+- **assets/**
+  - **images/**: Contains all the image files (e.g., book covers, podcast images, logos).
+    - `sober-diaries.jpg`: Image for "The Sober Diaries" book.
+    - `unexpected-joy.jpg`: Image for "The Unexpected Joy of Being Sober" book.
+    - `glorious-rock.jpg`: Image for "Glorious Rock Bottom" book.
+    - `we-are-luckiest.jpg`: Image for "We Are the Luckiest" book.
+    - `naked-mind.jpg`: Image for "This Naked Mind" book.
+    - `1sober-points-logo.jpg`: Logo used in the navigation.
+    - `sober-points-logo.png`: Logo used in the footer.
+    - **Podcast Images**:
+        - `sober-awkward.jpg`: Image for "Sober Awkward" podcast.
+        - `ttias.webp`: Image for "They Think It's All Sober" podcast.
+        - `sober-dave.jpeg`: Image for "One For the Road" podcast.
+        - `tnm.png`: Image for "This Naked Mind" podcast.
+        - `sgg.jpg`: Image for "A Sober Girl's Guide" podcast.
+        - `sp.jpeg`: Image for "Sober Powered" podcast.
+        - `sober-stories.jpg`: Image for "Sober Stories" podcast.
+        - `oti.jpg`: Image for "OTI" podcast.
+  - **css/**: Custom styles for the website's look and feel.
+  - **bs/**: Includes JavaScript or Bootstrap scripts for interactive elements.
+  
 ## Installation and Setup
+To set up the project locally, follow these steps:
+
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/shipleyux/milestone-1.git
     ```
-2. Open the project folder.
-3. Open `index.html` in your browser.
+2. Open the project folder in your preferred code editor or file browser.
+3. Open `index.html`, `quitlit.html`, or `contact.html` in your browser to view the respective pages.
 
-Optional:
-- If you used Bootstrap or other frameworks, include details about setting them up.
+
+- If you're using **Bootstrap**, the necessary CDN links are included in the `<head>` section of the HTML files.
+- Google Fonts are included for custom typography.
 
 ## Deployment
-The project is deployed on GitHub Pages and can be accessed at:  
-[https://your-username.github.io/your-repo-name](https://your-username.github.io/your-repo-name)
+The project is deployed on **GitHub Pages** and can be accessed at:  
+REMEMBER TO FILL THIS IN!
 
 To deploy the project:
 1. Push your project to GitHub.
 2. In your repository, go to "Settings" > "Pages."
-3. Select the main branch and root folder for deployment.
+3. Under **Source**, select the **main branch** and **root folder** for deployment.
+
+Once deployed, your site will be live at the GitHub Pages URL.
 
 ## Attribution
-- [Explain any code or assets you used from external sources]
-- Libraries or frameworks used (Bootstrap, etc.) are clearly attributed in the comments within the code.
+- **Images**: All book cover images and podcast logos are sourced from external media on podcast and book websites. Hero images are sourced from Unsplash and Pixabay.
+- **Bootstrap**: Bootstrap is used for responsive design. The relevant attribution is included in the code.
+- **Google Fonts**: Custom fonts **Poppins**, and **Roboto** are used for better typography, sourced from [Google Fonts](https://fonts.google.com).
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
