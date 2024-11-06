@@ -68,11 +68,16 @@ The project is structured as follows:
   - **bs/**: Includes Bootstrap scripts for interactive elements.
 
   ## Testing
-  **CSS Validator**
+  
+**CSS Validator**
 
-  ![CSS](assets/images/css-validation.png)
+![CSS](assets/images/css-validation.png)
 
-**Lighthouse validation scores**
+ **HTML Validator**
+
+![CSS](assets/images/html-valid.png)
+
+## Lighthouse Validation Scores
 
 **Homepage**
 
