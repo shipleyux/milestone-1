@@ -70,6 +70,7 @@ section.hero.contact {
   width: 100%;
 }
 
+/* Podcasts */
 .grid {
   margin: 3rem;
   font-family: 'Roboto';
@@ -91,6 +92,7 @@ section.hero.contact {
   position: relative;
 }
 
+/* Transparent number circle */
 .overlay-number {
   position: absolute;
   top: 0.625rem;
@@ -121,7 +123,7 @@ section.hero.contact {
   margin-left: 1.25rem;
   margin-top: 0.5rem;
 }
-
+/* No change tag */
 .no-change {
   height: fit-content;
   background-color: #ecfd21;
@@ -187,10 +189,11 @@ h2.book {
 .form-group {
   padding: 1rem;
 }
-
+/* Contact form button */
 form button {
   margin-left: 1rem;
 }
+/* Book list classes */
 
 .book-list .arrow-up {
   margin-bottom: 0.9375rem;
