@@ -90,7 +90,7 @@ The project is structured as follows:
 
 **Contact Page** 
 
-![lighthouse](assets/images/lighthouse4.png)
+![lighthouse](assets/images/lighthouse-contact.png)
 
   # Accessibility
 
