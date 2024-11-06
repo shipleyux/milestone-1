@@ -61,14 +61,14 @@ section.hero.quitlit {
   font-weight: bolder;
 }
 
-/* Top Part of Contact page */
+/* Hero Scetion CONTACT page */
 section.hero.contact {
   background-image: url('../assets/images/contact-us.jpg');
 
 }
 .hero-content.contact {
 /* Convert 200px to rem (based on a base font size of 16px) */
-margin-top: 12.5rem;
+margin-top: 30rem;
 }
 
 .podcast {
