@@ -38,7 +38,7 @@ section.hero {
 }
 
 section.hero.quitlit {
-  background-image: url ('../assets/images/open-book.jpg');
+  background-image: url('../assets/images/open-book.jpg');
 }
 
 .hero-content {
@@ -62,7 +62,7 @@ section.hero.quitlit {
 }
 
 section.hero.contact {
-  background-image: url ('../assets/images/contact-us.jpg');
+  background-image: url('../assets/images/contact-us.jpg');
 
 }
 
@@ -156,7 +156,7 @@ section.hero.contact {
 h2.book {
   padding-left: 0;
 }
-
+/* Book List */
 .book-list .container {
   margin: 0 auto;
 }

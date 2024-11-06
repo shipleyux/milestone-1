@@ -67,6 +67,24 @@ The project is structured as follows:
   - **css/**: Custom styles for the website's look and feel.
   - **bs/**: Includes Bootstrap scripts for interactive elements.
 
+  ## Testing
+  **CSS Validator**
+
+  ![CSS](assets/images/css-validation.png)
+
+**Lighthouse validation scores**
+
+**Homepage**
+
+![lighthouse](assets/images/lighthouse1.png)
+
+**Quitlit Page** 
+
+![lighthouse](assets/images/lighthouse2.png)
+
+
+
+
   # Accessibility
 
 To make the site as accessible as possible, the following principles and features have been implemented:
