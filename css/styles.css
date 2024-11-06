@@ -26,7 +26,7 @@ section {
 
 section.hero {
   height: 39.75rem;
- background-image: url('milestone-1/assets/images/happyman2.jpg');
+ background-image: url('../assets/images/happyman2.jpg');
 
   background-size: cover;
   background-position: center;
@@ -37,7 +37,7 @@ section.hero {
 }
 
 section.hero.quitlit {
-  background-image: url('/assets/images/open-book.jpg');
+  background-image: url('../assets/images/open-book.jpg');
 }
 
 .hero-content {
@@ -61,7 +61,7 @@ section.hero.quitlit {
 }
 
 section.hero.contact {
-  background-image: url('milestone-1/assets/images/contact-us.jpg');
+  background-image: url('milestone-1../assets/images/contact-us.jpg');
 
 }
 
