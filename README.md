@@ -83,7 +83,9 @@ The project is structured as follows:
 ![lighthouse](assets/images/lighthouse2.png)
 
 
+**Contact Page** 
 
+![lighthouse](assets/images/lighthouse4.png)
 
   # Accessibility
 
