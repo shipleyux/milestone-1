@@ -153,6 +153,7 @@ https://shipleyux.github.io/milestone-1
 
 ## Attribution
 - **Images**: All book cover images and podcast cover images are sourced from external media on podcast and book websites. Hero images are sourced from Unsplash and Pixabay.
+- **Book and Podcast Paragraph Descriptions**: Taken from book and podcast websites.
 - **Bootstrap**: Bootstrap is used for responsive design. The relevant attribution is included in the code.
 - **Google Fonts**: Custom fonts **Poppins**, and **Roboto** are used for better typography, sourced from [Google Fonts](https://fonts.google.com).
 
