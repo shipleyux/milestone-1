@@ -104,8 +104,8 @@ All images, including book covers, podcast logos, and background images, include
 ## Keyboard Accessibility
 The website is fully navigable using the keyboard, with clear tab order and focus states. Users can easily navigate between interactive elements like buttons, links, and form fields using the Tab key.
 
-## Color Contrast
-High contrast between text and background colors is maintained to ensure readability for users with low vision or color blindness. For example, the text color contrasts well with the background color in sections like the hero banner.
+## Colour Contrast
+High contrast between text and background colours is maintained to ensure readability for users with low vision or colour blindness. For example, the text colour contrasts well with the background colour in sections like the hero banner.
 
 ## Responsive Design
 The site is designed to be fully responsive, ensuring that it works well on both mobile and desktop devices. 
