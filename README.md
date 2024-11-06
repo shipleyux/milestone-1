@@ -40,7 +40,6 @@ I chose to use Bootstrap for its grid system and responsive design components, e
 - **Interactive cards** for podcasts and books, providing users with easy-to-click buttons for further engagement (e.g., Listen on Spotify, Buy Books).
 
 ## Project Structure
-The project is structured as follows:
 
 ### Files and Folders:
 - **index.html**: The **Home page** of the website. This page introduces the website and includes a featured list of podcasts and resources.
@@ -71,11 +70,11 @@ The project is structured as follows:
   
 **CSS Validator**
 
-![CSS](assets/images/css-validation.png)
+![css](assets/images/css-validation.png)
 
  **HTML Validator**
 
-![CSS](assets/images/html-valid.png)
+![html](assets/images/html-valid.png)
 
 ## Lighthouse Validation Scores
 
@@ -94,13 +93,13 @@ The project is structured as follows:
 
   # Accessibility
 
-To make the site as accessible as possible, the following principles and features have been implemented:
+To make the site as accessible as possible, the following features have been implemented:
 
 ## Semantic HTML
 Proper HTML tags (e.g., `<header>`, `<footer>`, `<section>`, `<nav>`) are used to create a logical structure and improve readability for screen readers.
 
 ## Alternative Text for Images
-All images, including book covers, podcast logos, and background images, include descriptive alt text to ensure that screen readers can convey meaningful information to visually impaired users.
+All images, including book covers, podcast logos, and background images, include alt text to ensure that screen readers can convey information to visually impaired users.
 
 ## Keyboard Accessibility
 The website is fully navigable using the keyboard, with clear tab order and focus states. Users can easily navigate between interactive elements like buttons, links, and form fields using the Tab key.
@@ -109,10 +108,10 @@ The website is fully navigable using the keyboard, with clear tab order and focu
 High contrast between text and background colors is maintained to ensure readability for users with low vision or color blindness. For example, the text color contrasts well with the background color in sections like the hero banner.
 
 ## Responsive Design
-The site is designed to be fully responsive, ensuring that it works well on both mobile and desktop devices. This ensures that the site is usable across a variety of devices, which is essential for users with mobility impairments who may rely on adaptive devices.
+The site is designed to be fully responsive, ensuring that it works well on both mobile and desktop devices. 
 
 ## ARIA (Accessible Rich Internet Applications) Attributes
-Where necessary, ARIA labels and roles are added to improve the accessibility of dynamic elements like buttons and navigation menus.
+ARIA labels and roles were added to improve the accessibility of the navigation menu.
 
 ## Forms and Labels
 All form fields have clear and labels to ensure that they are understandable for screen readers. 
@@ -153,7 +152,7 @@ https://shipleyux.github.io/milestone-1
 
 
 ## Attribution
-- **Images**: All book cover images and podcast logos are sourced from external media on podcast and book websites. Hero images are sourced from Unsplash and Pixabay.
+- **Images**: All book cover images and podcast cover images are sourced from external media on podcast and book websites. Hero images are sourced from Unsplash and Pixabay.
 - **Bootstrap**: Bootstrap is used for responsive design. The relevant attribution is included in the code.
 - **Google Fonts**: Custom fonts **Poppins**, and **Roboto** are used for better typography, sourced from [Google Fonts](https://fonts.google.com).
 
