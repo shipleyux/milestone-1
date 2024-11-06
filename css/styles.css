@@ -26,7 +26,7 @@ section {
 
 section.hero {
   height: 39.75rem;
-  background-image: url('/assets/images/happyman2.jpg');
+  background-image: url('../assets/images/happyman2.jpg');
 
 
   background-size: cover;
