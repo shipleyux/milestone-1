@@ -12,6 +12,7 @@
 
 ## Introduction
 **Sober Points** is a static front-end website designed to help people on their journey to sobriety. The website serves as a resource hub, providing recommendations for **Quitlit** books and podcasts to aid in the recovery process. It is designed to be simple, accessible, and fully responsive, ensuring users have a seamless experience whether they're browsing on a mobile device or desktop.
+![Homepage](assets/images/mock-up.png)
 
 The website features:
 - A **Home** page with an introduction to the site and a list of this week's top-rated podcasts.
@@ -117,23 +118,20 @@ To set up the project locally, follow these steps:
 3. Open `index.html`, `quitlit.html`, or `contact.html` in your browser to view the respective pages.
 
 
-- If you're using **Bootstrap**, the necessary CDN links are included in the `<head>` section of the HTML files.
+-  **Bootstrap**, the necessary CDN links are included in the `<head>` section of the HTML files.
 - Google Fonts are included for custom typography.
 
 ## Deployment
 The project is deployed on **GitHub Pages** and can be accessed at:  
-REMEMBER TO FILL THIS IN!
+https://shipleyux.github.io/milestone-1
 
-To deploy the project:
-1. Push your project to GitHub.
-2. In your repository, go to "Settings" > "Pages."
-3. Under **Source**, select the **main branch** and **root folder** for deployment.
 
-Once deployed, your site will be live at the GitHub Pages URL.
 
 ## Attribution
 - **Images**: All book cover images and podcast logos are sourced from external media on podcast and book websites. Hero images are sourced from Unsplash and Pixabay.
 - **Bootstrap**: Bootstrap is used for responsive design. The relevant attribution is included in the code.
 - **Google Fonts**: Custom fonts **Poppins**, and **Roboto** are used for better typography, sourced from [Google Fonts](https://fonts.google.com).
+
+Thanks to Spencer Bariball for his guidance on this project. 
 
 
